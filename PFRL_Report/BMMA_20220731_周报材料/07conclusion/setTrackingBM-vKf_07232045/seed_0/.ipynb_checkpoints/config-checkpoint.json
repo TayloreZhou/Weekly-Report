@@ -1,0 +1,48 @@
+{
+    "alpha":	0.4,
+    "amp":	false,
+    "batch_size":	256,
+    "device":	"cpu",
+    "env_fn":	"<function train.<locals>.<lambda> at 0x7f83ec3243a0>",
+    "epochs":	20,
+    "exp_name":	"./results/maTT/setTrackingBM-vKf_07232045/seed_0",
+    "gamma":	0.99,
+    "grad_clip":	0.2,
+    "logger":	{
+        "<utils.logSpinUp.EpochLogger object at 0x7f83ec31c0a0>":	{
+            "epoch_dict":	{},
+            "exp_name":	"./results/maTT/setTrackingBM-vKf_07232045/seed_0",
+            "first_row":	true,
+            "log_current_row":	{},
+            "log_headers":	[],
+            "output_dir":	"./results/maTT/setTrackingBM-vKf_07232045/seed_0",
+            "output_file":	{
+                "<_io.TextIOWrapper name='./results/maTT/setTrackingBM-vKf_07232045/seed_0/progress.txt' mode='w' encoding='UTF-8'>":	{
+                    "mode":	"w"
+                }
+            }
+        }
+    },
+    "logger_kwargs":	{
+        "exp_name":	"./results/maTT/setTrackingBM-vKf_07232045/seed_0",
+        "output_dir":	"./results/maTT/setTrackingBM-vKf_07232045/seed_0"
+    },
+    "lr":	0.001,
+    "lr_period":	0.7,
+    "max_ep_len":	200,
+    "model":	"DeepSetmodel",
+    "model_kwargs":	{
+        "dim_hidden":	128
+    },
+    "num_test_episodes":	2,
+    "polyak":	0.999,
+    "render":	false,
+    "replay_size":	1000000,
+    "save_freq":	1,
+    "seed":	0,
+    "start_steps":	5000,
+    "steps_per_epoch":	6000,
+    "torch_threads":	1,
+    "update_after":	5000,
+    "update_every":	1
+}
